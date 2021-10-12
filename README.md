@@ -1,3 +1,7 @@
+**2022-01-18 zajęcia laboratoryjne na wykładzie**
+
+**2022-01-25 egzamin**
+
 # Modelowanie Statystyczne w Zarządzaniu Wierzytelnościami Masowymi
 
 **Opis kursu:**
