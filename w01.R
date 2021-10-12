@@ -133,7 +133,7 @@ dTableTmp <- dTable[1:3, ] # mniejsze tabelki
 dTableTmp[1, Coin:="K"] # zmiana wartości w pierwszym wierszu
 dTableTmp2 <- dTable2[1:3, ] # mniejsze tabelki
 
-dTableTmp2[dTableTmp, on=.(Coin)] # left join
+dTableTmp2[dTableTmp, on=.(Coin), allow.cartesian=TRUE] # left join
 dTableTmp2[dTableTmp, on=.(Coin), nomatch=0] # inner join
 
 # Uwaga: Zwróćcie też uwagę na aliasowanie kolumn o tych samych nazwach "i."
